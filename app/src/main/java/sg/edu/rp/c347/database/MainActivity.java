@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnInsert = (Button) findViewById(R.id.buttonInsert);
         btnGetTasks = (Button)findViewById(R.id.buttonGet);
-        tvResults = (TextView)findViewById(R.id.tvResults);
+        tvResults = (TextView)findViewById(R.id.textView3);
 
         btnInsert.setOnClickListener(new View.OnClickListener(){
             @Override
